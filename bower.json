@@ -1,0 +1,22 @@
+{
+  "name": "gulp-angular",
+  "description": "created for gulp with angular frameworks",
+  "main": "server.js",
+  "authors": [
+    "B. Mohamed Arif"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "gulp",
+    "gulp-agular",
+    "gulp-automation"
+  ],
+  "homepage": "https://github.com/3gwebtrain/gulp-angular",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
