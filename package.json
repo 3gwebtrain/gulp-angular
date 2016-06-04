@@ -1,0 +1,24 @@
+{
+  "name": "gulp-angular",
+  "version": "0.0.1",
+  "description": "created for gulp with angular frameworks",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3gwebtrain/gulp-angular.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulp-agular",
+    "gulp-automation"
+  ],
+  "author": "B. Mohamed Arif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3gwebtrain/gulp-angular/issues"
+  },
+  "homepage": "https://github.com/3gwebtrain/gulp-angular#readme"
+}
