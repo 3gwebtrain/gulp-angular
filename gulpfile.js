@@ -9,6 +9,22 @@ var minifyCSS = require('gulp-minify-css');
 var clean = require('gulp-clean');
 var runSequence = require('run-sequence');
 
+var config = require('./env')();
+
+gulp.task('set-dev-node-env', function() {
+    return process.env.NODE_ENV = 'development';
+});
+
+gulp.task('set-prod-node-env', function() {
+    return process.env.NODE_ENV = 'production';
+});
+
+gulp.task('build_for_prod', ['set-prod-node-env'], function() {
+    // maybe here manipulate config object  
+    console.log("hi", process.env.NODE_ENV);
+    
+});
+
 // tasks
 gulp.task('lint', function() {
   gulp.src(['./app/**/*.js', '!./app/bower_components/**'])
